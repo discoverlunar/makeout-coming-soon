@@ -34,5 +34,5 @@ body {
     @apply max-h-screen;
     @apply overflow-hidden;
     @apply text-white;
-    @apply relative p-8;
+    @apply relative p-6 lg:p-8;
 }
