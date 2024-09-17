@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'PPNeueMontreal';
+    src: url('../../assets/fonts/PPNeueMontreal-Italic.ttf');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PPNeueMontreal';
+    src: url('../../assets/fonts/PPNeueMontreal-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'PPNeueMontreal';
+    src: url('../../assets/fonts/PPNeueMontreal-SemiBold.ttf');
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+* {
+    @apply m-0 p-0;
+    @apply box-border;
+    @apply font-sans;
+}
+
+body {
+    @apply h-screen;
+    @apply max-h-screen;
+    @apply overflow-hidden;
+    @apply text-white;
+    @apply relative p-8;
+}
